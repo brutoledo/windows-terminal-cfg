@@ -21,3 +21,9 @@ gm() {
 gc(){
  git checkout "$1" && gp
 }
+
+# Git checkout -b (new branch)
+# Eg. gcb branch-name
+gcb(){
+ git checkout -b "$1"
+}
